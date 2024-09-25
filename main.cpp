@@ -30,5 +30,25 @@ public:
         blue = b;
     }
 
+    int getRed() const {
+        return red;
+    }
+
+    int getGreen() const {
+        return green;
+    }
+
+    int getBlue() const {
+        return blue;
+    }
+
+    void print() const {
+        cout << "Color (R: " << red << ", G: " << green << ", B: " << blue << ")" << endl;
+    }
+
+};
+
+int main() {}
+
 
 }

@@ -1,6 +1,24 @@
 // Lab 14: Color Class
 // COMSC-210 - Ibrahim Alatig 
 
+// UML template
+//-------------
+//     Color
+// - red: int
+// - green: int
+// - blue: int
+//--------------
+// + Color()
+// + Color(int,int,int)
+// + setRed(int): void
+// + setGreen(int): void
+// + setBlue(int): void
+// + getRed(): int
+// + getGreen(): int
+// + getBlue(): int
+// + getBlue(): int
+// + print(): void
+
 #include <iostream>
 #include <iomanip>
 
@@ -13,7 +31,7 @@ class Color {
     int blue;
 
 public:
-    // contructor
+    // constructor
     Color() : red(0), green(0), blue(0) {}
 
     Color(int r, int g, int b) : red(r), green(g), blue(b){}
@@ -55,12 +73,12 @@ int main() {
     Color color4(255, 255, 0); // yellow
     Color color5(0, 255, 255); // cyan
 
-    cout << "Color values:" << end1;
+    cout << "Color values:" << endl;
     color1.print();
-    color2.print()
+    color2.print();
     color3.print();
-    color4.print()
-    color5.print()
+    color4.print();
+    color5.print();
 
     return 0;
 }

@@ -48,7 +48,15 @@ public:
 
 };
 
-int main() {}
+int main() {
+    Color color1(255, 0, 0); // red
+    Color color2(0, 255, 0); // Green
+    Color color3(0, 0, 255); // Blue
+    Color color4(255, 255, 0); // yellow
+    Color color5(0, 255, 255); // cyan
+
+    cout << "Color values:" << end1;
+    co
 
 
 }

@@ -56,7 +56,11 @@ int main() {
     Color color5(0, 255, 255); // cyan
 
     cout << "Color values:" << end1;
-    co
+    color1.print();
+    color2.print()
+    color3.print();
+    color4.print()
+    color5.print()
 
-
+    return 0;
 }
